@@ -1,0 +1,38 @@
+import matplotlib.pyplot as m
+import numpy as n
+from matplotlib import rc
+rc('font',**{'family':'sans-serif','sans-serif':['Helvetica']})
+import matplotlib.pyplot as m
+rc('text', usetex=True)
+
+w0,f0=n.loadtxt('betasum0.txt',unpack=True)
+w1,f1=n.loadtxt('betasum1.txt',unpack=True)
+w2,f2=n.loadtxt('betasum2.txt',unpack=True)
+w3,f3=n.loadtxt('betasum3.txt',unpack=True)
+w4,f4=n.loadtxt('betasum4.txt',unpack=True)
+w5,f5=n.loadtxt('betasum5.txt',unpack=True)
+w6,f6=n.loadtxt('betasum6.txt',unpack=True)
+w7,f7=n.loadtxt('betasum7.txt',unpack=True)
+w8,f8=n.loadtxt('betasum8.txt',unpack=True)
+
+m.axis([4836,4888,0,1650])
+m.plot(w0,f0,'k')
+m.plot(w1,f1,'k',markersize=2)
+m.plot(w2,f2,'k',markersize=2)
+m.plot(w3,f3,'k',markersize=2)
+m.plot(w4,f4,'k',markersize=2)
+m.plot(w5,f5,'k',markersize=2)
+m.plot(w6,f6,'k',markersize=2)
+m.plot(w7,f7,'k',markersize=2)
+m.plot(w8,f8,'k',markersize=2)
+m.xlabel('Longitud de Onda, Angstrom')
+m.ylabel('Flujo Relativo',fontsize='medium')
+m.text(4875,40,'Fase 0.0')
+m.text(4875,150,'Fase 0.125')
+m.text(4875,330,'Fase 0.25')
+m.text(4875,540,'Fase 0.375')
+m.text(4875,725,'Fase 0.5')
+m.text(4875,920,'Fase 0.625')
+m.text(4875,1100,'Fase 0.75')
+m.text(4875,1275,'Fase 0.875')
+m.text(4875,1520,'Fase 1.0')

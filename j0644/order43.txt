@@ -1,0 +1,27 @@
+#K IRAF       = NOAO/IRAF V2.11.3EXPORT        version   
+#K USER       = jer                            name      
+#K HOST       = solti                          computer  
+#K DATE       = 2010-03-03                     yyyy-mm-dd
+#K TIME       = 11:22:54                       hh:mm:ss  
+#K PACKAGE    = rv                             name      
+#K TASK       = fxcor                          name      
+# 
+#T Template ' A' -- Object = 'HD38_B'                                        \*
+#                   Image  = 'stan03002'                       Vhelio = INDEF
+# 
+#  Velocity Dispersion = 10.72 Km/sec/pixel     Rebinned WPC = 1.55278E-5
+# 
+#N OBJECT        IMAGE     REF   HJD       AP    CODES     SHIFT   HGHT FWHM    TDR    VOBS      VREL       VHELIO     VERR
+#U name          image           days            cfr/fun   pixel                       km/s      km/s       km/s       km/s
+#
+J0644+3344       j01012.fits  A  4473.7873   43   BBS/gau   61.022  0.05 188.39  1.48   677.8991  654.7944   673.9311   59.624 
+J0644+3344       j01012b.fits  A  4473.8015   43   BBS/gau   15.985  0.09 79.94   1.90   194.4553  171.3878   190.4501   21.641 
+#K RSAMPLE    = *                                        
+J0644+3344       j01013.fits  A  4473.8124   43   BBS/gau   -56.329 0.08 44.53   2.13   -580.1601 -603.1680  -584.1938  11.177 
+#K OSAMPLE    = *                                        
+#K RSAMPLE    = *                                        
+J0644+3344       j01014.fits  A  4473.8200   43   BBS/gau   5.892   0.08 374.26  1.63   86.2248   63.1657    82.1716    111.693
+J0644+3344       j01015.fits  A  4473.8276   43   BBS/gau   -63.737 0.10 78.08   2.46   -659.4030 -682.4048  -663.4766  17.711 
+J0644+3344       j01014.fits  A  4473.8200   43   BBS/gau   5.892   0.08 374.26  1.63   86.2248   63.1657    82.1716    111.693
+J0644+3344       j01013.fits  A  4473.8124   43   BBS/gau   -56.329 0.08 44.53   2.13   -580.1601 -603.1680  -584.1938  11.177 
+J0644+3344       j01012b.fits  A  4473.8015   43   BBS/gau   15.985  0.09 79.94   1.90   194.4553  171.3878   190.4501   21.641 

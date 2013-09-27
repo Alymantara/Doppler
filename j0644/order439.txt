@@ -1,0 +1,207 @@
+#K IRAF       = NOAO/IRAF V2.11.3EXPORT        version   
+#K USER       = jer                            name      
+#K HOST       = solti                          computer  
+#K DATE       = 2008-04-08                     yyyy-mm-dd
+#K TIME       = 16:49:01                       hh:mm:ss  
+#K PACKAGE    = rv                             name      
+#K TASK       = fxcor                          name      
+# 
+#T Template ' A' -- Object = 'HD38_B'                                        \*
+#                   Image  = 'stan03002'                       Vhelio = INDEF
+# 
+#  Velocity Dispersion = 10.72 Km/sec/pixel     Rebinned WPC = 1.55278E-5
+# 
+#N OBJECT        IMAGE     REF   HJD       AP    CODES     SHIFT   HGHT FWHM    TDR    VOBS      VREL       VHELIO     VERR
+#U name          image           days            cfr/fun   pixel                       km/s      km/s       km/s       km/s
+#
+Lamp             j01012.fits  A  4473.7873   43   BBS/gau   59.933  0.06 247.56  1.52   666.1988  643.0950   662.2308   77.147 
+Lamp             j01012b.fits  A  4473.8015   43   BBS/gau   16.421  0.10 80.22   2.19   199.1283  176.0605   195.1231   19.734 
+Lamp             j01013.fits  A  4473.8124   43   BBS/gau   -56.345 0.08 47.27   2.45   -580.3353 -603.3431  -584.3689  10.773 
+Lamp             j01014.fits  A  4473.8200   43   BBS/gau   -35.864 0.06 119.76  1.34   -361.1506 -384.1753  -365.2038  40.229 
+Lamp             j01015.fits  A  4473.8276   43   BBS/gau   -63.211 0.10 88.69   3.02   -653.7790 -676.7813  -657.8526  17.323 
+Lamp             j01016.fits  A  4473.8353   43   BBS/gau   10.651  0.12 77.46   3.47   137.2492  114.1861   133.1560   13.608 
+Lamp             j01017.fits  A  4473.8429   43   BBS/gau   -7.323  0.07 227.54  1.60   -55.4401  -78.4883   -59.5530   68.704 
+Lamp             j01018.fits  A  4473.8505   43   BBS/gau   -12.704 0.10 77.57   2.35   -113.1008 -136.1447  -117.2332  18.167 
+Lamp             j01019.fits  A  4473.8582   43   BBS/gau   -23.482 0.05 318.23  1.18   -228.5599 -251.5948  -232.7115  114.526
+Lamp             j01020.fits  A  4473.8658   43   BBS/gau   -44.346 0.09 108.92  2.32   -451.9360 -474.9538  -456.1067  25.762 
+Lamp             j01021.fits  A  4473.8735   43   BBS/gau   2.252   0.07 166.54  1.74   47.1955   24.1393    43.0059    47.711 
+Lamp             j01022.fits  A  4473.8811   43   BBS/gau   47.779  0.06 65.93   1.48   535.6582  512.5645   531.4502   20.916 
+#  Velocity Dispersion = 10.71 Km/sec/pixel     Rebinned WPC = 1.55219E-5
+Lamp             j01026.fits  A  4473.8948   43   BBS/gau   31.561  0.07 97.06   1.59   361.4371  338.3568   357.1953   29.474 
+#  Velocity Dispersion = 10.71 Km/sec/pixel     Rebinned WPC = 1.55219E-5
+Lamp             j01027.fits  A  4473.9024   43   BBS/gau   -37.148 0.08 52.79   1.54   -374.7462 -397.7699  -379.0059  16.333 
+Lamp             j01028.fits  A  4473.9101   43   BBS/gau   -26.338 0.07 144.43  1.96   -259.0448 -282.0774  -263.3223  38.281 
+Lamp             j01029.fits  A  4473.9177   43   BBS/gau   -42.622 107.2 355.38  2835.3 -433.3131 -456.3322  -437.6070  0.098  
+Lamp             j01030.fits  A  4473.9253   43   BBS/gau   -28.109 0.06 199.92  2.06   -278.0040 -301.0352  -282.3143  51.391 
+Lamp             j01031.fits  A  4473.9330   43   BBS/gau   -3.005  0.08 46.26   2.68   -9.1474   -32.1992   -13.4735   9.860  
+Lamp             j01032.fits  A  4473.9406   43   BBS/gau   9.969   0.10 74.48   2.43   129.9009  106.8384   125.5599   17.031 
+Lamp             j01033.fits  A  4473.9483   43   BBS/gau   -48.836 0.12 67.37   2.57   -499.8000 -522.8141  -504.1559  14.839 
+Lamp             j01034.fits  A  4473.9559   43   BBS/gau   14.249  0.09 101.81  2.00   175.7768  152.7107   171.4068   26.648 
+Lamp             j01035.fits  A  4473.9635   43   BBS/gau   -11.012 0.04 153.09  1.08   -94.9214  -117.9666  -99.3046   57.718 
+J0664+3344       j02005.fits  A  4474.6560   43   BBS/gau   -53.521 0.16 390.40  3.87   -549.9012 -572.9114  -554.0948  62.904 
+J0664+3344       j02006.fits  A  4474.6636   43   BBS/gau   39.729  0.05 204.79  1.04   449.0714  425.9843   444.8642   78.730 
+J0664+3344       j02007.fits  A  4474.6713   43   BBS/gau   24.614  0.12 38.84   2.80   286.9227  263.8482   282.7015   8.019  
+J0664+3344       j02008.fits  A  4474.6789   43   BBS/gau   61.575  0.08 95.56   1.96   683.5975  660.4924   679.3615   25.390 
+J0664+3344       j02009.fits  A  4474.6865   43   BBS/gau   -20.107 0.12 101.56  2.94   -192.3302 -215.3679  -196.5814  20.233 
+J0664+3344       j02010.fits  A  4474.6942   43   BBS/gau   56.117  0.10 34.21   1.91   624.9881  601.8875   620.7211   9.234  
+J0664+3344       j02011.fits  A  4474.7018   43   BBS/gau   59.069  0.08 137.75  1.93   656.6867  633.5837   652.4034   36.891 
+J0664+3344       j02012.fits  A  4474.7095   43   BBS/gau   54.595  0.06 438.21  1.54   608.6474  585.5481   604.3474   135.305
+J0664+3344       j02013.fits  A  4474.7171   43   BBS/gau   21.624  0.09 52.26   1.91   254.8623  231.7902   250.5450   14.097 
+J0664+3344       j02014.fits  A  4474.7247   43   BBS/gau   -27.846 0.03 396.69  0.52   -275.1839 -298.2153  -279.5188  204.421
+J0664+3344       j02015.fits  A  4474.7324   43   BBS/gau   -28.348 0.07 114.55  2.02   -280.5521 -303.5831  -284.9050  29.752 
+J0664+3344       j02016.fits  A  4474.7400   43   BBS/gau   -15.450 0.13 74.39   3.32   -142.4535 -165.4950  -146.8247  13.537 
+#K IRAF       = NOAO/IRAF V2.11.3EXPORT        version   
+#K USER       = jer                            name      
+#K HOST       = solti                          computer  
+#K DATE       = 2008-04-08                     yyyy-mm-dd
+#K TIME       = 16:53:34                       hh:mm:ss  
+#K PACKAGE    = rv                             name      
+#K TASK       = fxcor                          name      
+# 
+#T Template ' A' -- Object = 'HD38_B'                                        \*
+#                   Image  = 'stan03002'                       Vhelio = INDEF
+# 
+#  Velocity Dispersion = 10.70 Km/sec/pixel     Rebinned WPC = 1.54993E-5
+# 
+#N OBJECT        IMAGE     REF   HJD       AP    CODES     SHIFT   HGHT FWHM    TDR    VOBS      VREL       VHELIO     VERR
+#U name          image           days            cfr/fun   pixel                       km/s      km/s       km/s       km/s
+#
+#  Velocity Dispersion = 10.70 Km/sec/pixel     Rebinned WPC = 1.54993E-5
+Lamp             j01012.fits  A  4473.7873   38   BBS/gau   66.926  0.04 56.09   1.64   740.0167  716.9073   736.0488   16.665 
+Lamp             j01012b.fits  A  4473.8015   38   BBS/gau   3.795   0.07 94.24   3.92   63.6686   40.6112    59.6633    15.034 
+Lamp             j01013.fits  A  4473.8124   38   BBS/gau   -19.883 0.04 113.25  2.13   -189.6161 -212.6540  -193.6498  28.378 
+Lamp             j01014.fits  A  4473.8200   38   BBS/gau   62.357  0.04 110.98  1.67   691.0154  667.9097   686.9621   32.645 
+Lamp             j01015.fits  A  4473.8276   38   BBS/gau   -27.256 0.07 92.12   2.67   -268.4400 -291.4719  -272.5137  19.719 
+Lamp             j01016.fits  A  4473.8353   38   BBS/gau   1.854   0.07 91.74   3.93   42.8925   19.8367    38.7992    14.612 
+Lamp             j01017.fits  A  4473.8429   38   BBS/gau   2.719   0.04 342.24  2.42   52.1540   29.0975    48.0411    78.669 
+Lamp             j01018.fits  A  4473.8505   38   BBS/gau   4.078   0.04 138.41  1.88   66.6881   43.6305    62.5557    37.684 
+Lamp             j01019.fits  A  4473.8582   38   BBS/gau   0.320   0.05 76.44   2.50   26.4746   3.4200     22.3229    17.144 
+Lamp             j01020.fits  A  INDEF       38   BBS/gau   INDEF   INDEF INDEF   INDEF  INDEF     INDEF      INDEF      INDEF  
+Lamp             j01021.fits  A  4473.8735   38   BBS/gau   20.670  0.04 81.81   2.06   244.3080  221.2367   240.1185   20.969 
+Lamp             j01022.fits  A  4473.8811   38   BBS/gau   -40.735 0.05 84.37   2.76   -412.4903 -435.5111  -416.6984  17.620 
+#  Velocity Dispersion = 10.70 Km/sec/pixel     Rebinned WPC = 1.54972E-5
+Lamp             j01026.fits  A  4473.8948   38   BBS/gau   7.428   0.04 93.64   1.69   102.5362  79.4759    98.2944    27.349 
+Lamp             j01027.fits  A  4473.9024   38   BBS/gau   7.193   0.04 83.38   2.46   100.0236  76.9634    95.7639    18.952 
+Lamp             j01028.fits  A  4473.9101   38   BBS/gau   35.933  0.04 93.89   1.91   407.7308  384.6469   403.4533   25.335 
+Lamp             j01029.fits  A  4473.9177   38   BBS/gau   15.724  0.03 268.04  1.28   191.3259  168.2587   187.0319   92.175 
+Lamp             j01030.fits  A  4473.9253   38   BBS/gau   18.141  0.05 103.50  2.09   217.2023  194.1331   212.8920   26.284 
+Lamp             j01031.fits  A  4473.9330   38   BBS/gau   -23.171 0.04 87.05   1.82   -224.7420 -247.7773  -229.0681  24.256 
+Lamp             j01032.fits  A  4473.9406   38   BBS/gau   14.135  0.05 206.37  2.16   174.3165  151.2506   169.9755   51.327 
+Lamp             j01033.fits  A  4473.9483   38   BBS/gau   12.085  0.03 253.20  1.21   152.3765  129.3123   148.0207   90.184 
+Lamp             j01034.fits  A  4473.9559   38   BBS/gau   65.400  0.05 86.97   2.05   723.5529  700.4448   719.1830   22.420 
+Lamp             j01035.fits  A  INDEF       38   BBS/gau   INDEF   INDEF INDEF   INDEF  INDEF     INDEF      INDEF      INDEF  
+J0664+3344       j02005.fits  A  4474.6560   38   BBS/gau   -7.486  0.03 63.53   1.32   -57.0230  -80.0711   -61.2166   21.493 
+J0664+3344       j02006.fits  A  4474.6636   38   BBS/gau   -5.562  0.04 363.72  1.80   -36.4399  -59.4896   -40.6471   102.129
+J0664+3344       j02007.fits  A  4474.6713   38   BBS/gau   -0.499  0.03 100.96  1.80   17.7139   -5.3400    13.4926    28.330 
+J0664+3344       j02008.fits  A  4474.6789   38   BBS/gau   15.424  0.03 65.79   1.89   188.1175  165.0505   183.8815   17.887 
+J0664+3344       j02009.fits  A  4474.6865   38   BBS/gau   -26.905 0.03 42.84   1.49   -264.6473 -287.6794  -268.8985  13.532 
+J0664+3344       j02010.fits  A  4474.6942   38   BBS/gau   8.108   0.03 164.62  1.50   109.8156  86.7547    105.5486   51.698 
+J0664+3344       j02011.fits  A  4474.7018   38   BBS/gau   3.060   0.04 52.81   2.00   55.7915   32.7348    51.5083    13.803 
+J0664+3344       j02012.fits  A  4474.7095   38   BBS/gau   23.091  0.03 93.95   2.01   270.1959  247.1226   265.8958   24.508 
+J0664+3344       j02013.fits  A  4474.7171   38   BBS/gau   18.473  0.04 65.41   2.06   220.7486  197.6791   216.4314   16.777 
+J0664+3344       j02014.fits  A  4474.7247   38   BBS/gau   -18.351 0.01 426.71  0.55   -173.2117 -196.2508  -177.5465  216.728
+J0664+3344       j02015.fits  A  4474.7324   38   BBS/gau   -24.055 0.04 95.54   1.63   -234.1907 -257.2253  -238.5436  28.567 
+J0664+3344       j02016.fits  A  4474.7400   38   BBS/gau   16.314  0.04 49.04   2.35   197.6455  174.5778   193.2743   11.514 
+J0664+3344       j02019.fits  A  4474.7553   38   BBS/gau   19.222  0.04 179.13  1.78   228.7753  205.7052   224.3715   50.574 
+J0664+3344       j02020.fits  A  4474.7629   38   BBS/gau   3.407   0.05 121.81  2.35   59.5105   36.4535    55.0876    28.599 
+J0664+3344       j02021.fits  A  4474.7706   38   BBS/gau   1.790   0.05 246.63  2.58   42.2045   19.1488    37.7622    54.035 
+J0664+3344       j02022.fits  A  4474.7782   38   BBS/gau   13.195  0.04 185.87  1.93   164.2543  141.1892   159.7924   49.791 
+J0664+3344       j02023.fits  A  4474.7858   38   BBS/gau   -56.868 0.02 95.13   1.29   -584.7285 -607.7361  -589.2102  32.568 
+J0664+3344       j02024.fits  A  4474.7935   38   BBS/gau   21.003  0.02 155.83  0.90   247.8422  224.7706   243.3407   64.439 
+J0664+3344       j02025.fits  A  4474.8011   38   BBS/gau   2.101   0.05 115.05  1.95   45.5351   22.4791    41.0138    30.675 
+J0664+3344       j02026.fits  A  4474.8087   38   BBS/gau   0.531   0.05 160.68  1.69   28.7372   5.6825     24.1960    46.848 
+J0664+3344       j02027.fits  A  4474.8164   38   BBS/gau   2.764   0.05 99.73   2.11   52.6255   29.5689    48.0644    25.194 
+J0664+3344       j02028.fits  A  4474.8240   38   BBS/gau   12.887  0.05 199.04  2.25   160.9592  137.8943   156.3783   48.119 
+J0664+3344       j02029.fits  A  4474.8316   38   BBS/gau   2.931   0.04 221.46  1.50   54.4167   31.3600    49.8160    69.632 
+J0664+3344       j02030.fits  A  4474.8393   38   BBS/gau   6.272   0.04 177.09  1.92   90.1634   67.1040    85.5430    47.635 
+J0644+3344       j02032.fits  A  4474.8492   38   BBS/gau   -1.704  0.05 85.71   2.10   4.8292    -18.2237   0.1836     21.744 
+#  Velocity Dispersion = 10.70 Km/sec/pixel     Rebinned WPC = 1.54965E-5
+J0644+3344       j02033.fits  A  4474.8568   38   BBS/gau   6.052   0.02 381.69  0.92   87.8046   64.7453    83.1397    156.507
+#  Velocity Dispersion = 10.70 Km/sec/pixel     Rebinned WPC = 1.54953E-5
+J0644+3344       j02034.fits  A  4474.8644   38   BBS/gau   -1.977  0.06 101.86  2.67   1.9108    -21.1419   -2.7729    21.793 
+#  Velocity Dispersion = 10.70 Km/sec/pixel     Rebinned WPC = 1.54942E-5
+J0644+3344       j02035.fits  A  4474.8721   38   BBS/gau   0.874   0.04 158.43  1.82   32.3977   9.3427     27.6955    44.081 
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54928E-5
+J0644+3344       j02036.fits  A  4474.8797   38   BBS/gau   4.149   0.06 130.16  3.39   67.4355   44.3779    62.7145    23.261 
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54916E-5
+J0644+3344       j02037.fits  A  4474.8873   38   BBS/gau   -3.922  0.05 231.63  2.07   -18.8823  -41.9334   -23.6218   59.211 
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54902E-5
+J0644+3344       j02038.fits  A  4474.8950   38   BBS/gau   1.912   0.03 308.79  1.34   43.5053   20.4495    38.7476    103.501
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54891E-5
+J0644+3344       j02039.fits  A  4474.9026   38   BBS/gau   26.154  0.03 142.44  1.10   302.8437  279.7679   298.0683   53.320 
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54877E-5
+J0644+3344       j02040.fits  A  4474.9103   38   BBS/gau   9.708   0.03 109.77  1.25   126.8715  103.8092   122.0788   38.272 
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54865E-5
+J0644+3344       j02041.fits  A  4474.9179   38   BBS/gau   1.287   0.05 164.32  2.51   36.8159   13.7605    32.0062    36.788 
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54851E-5
+J0644+3344       j02042.fits  A  4474.9255   38   BBS/gau   8.057   0.03 311.75  1.23   109.1976  86.1367    104.3721   109.729
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54839E-5
+J0644+3344       j02043.fits  A  4474.9332   38   BBS/gau   0.664   0.03 160.82  1.22   30.1505   7.0957     25.3099    57.009 
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54828E-5
+J0644+344        j02045.fits  A  4474.9492   38   BBS/gau   -57.535 0.05 99.80   2.56   -591.2852 -614.2923  -596.1579  22.040 
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54827E-5
+J0644+344        j02046.fits  A  4474.9568   38   BBS/gau   -13.849 0.04 102.42  2.25   -124.9363 -147.9792  -129.8215  24.758 
+J0644+3344       j03009.fits  A  4475.6541   38   BBS/gau   11.615  0.05 129.87  2.43   147.2275  124.1636   142.5179   29.719 
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54828E-5
+J0644+3344       j03010.fits  A  4475.6617   38   BBS/gau   2.895   0.06 184.69  2.18   54.0017   30.9451    49.2792    45.669 
+J0644+3344       j03011.fits  A  4475.6694   38   BBS/gau   3.369   0.03 363.07  1.20   59.0685   36.0115    54.3324    129.738
+J0644+3344       j03012.fits  A  4475.6770   38   BBS/gau   -20.560 0.06 87.68   2.12   -196.6211 -219.6585  -201.3717  22.085 
+J0644+3344       j03013.fits  A  4475.6846   38   BBS/gau   1.416   0.06 118.93  3.92   38.1882   15.1328    33.4227    18.982 
+J0644+3344       j03014.fits  A  INDEF       38   BBS/gau   INDEF   INDEF INDEF   INDEF  INDEF     INDEF      INDEF      INDEF  
+J0644+3344       j03015.fits  A  4475.6999   38   BBS/gau   1.106   0.07 119.15  2.61   34.8712   11.8160    30.0741    25.924 
+#K IRAF       = NOAO/IRAF V2.11.3EXPORT        version   
+#K USER       = jer                            name      
+#K HOST       = solti                          computer  
+#K DATE       = 2008-04-08                     yyyy-mm-dd
+#K TIME       = 17:03:49                       hh:mm:ss  
+#K PACKAGE    = rv                             name      
+#K TASK       = fxcor                          name      
+# 
+#T Template ' A' -- Object = 'HD38_B'                                        \*
+#                   Image  = 'stan03002'                       Vhelio = INDEF
+# 
+#  Velocity Dispersion = 10.65 Km/sec/pixel     Rebinned WPC = 1.54243E-5
+# 
+#N OBJECT        IMAGE     REF   HJD       AP    CODES     SHIFT   HGHT FWHM    TDR    VOBS      VREL       VHELIO     VERR
+#U name          image           days            cfr/fun   pixel                       km/s      km/s       km/s       km/s
+#
+#  Velocity Dispersion = 10.65 Km/sec/pixel     Rebinned WPC = 1.54243E-5
+J0644+3344       j03020      A  4475.7381   32   BBS/gau   -12.015 0.07 399.81  2.09   -104.8528 -127.8972  -109.7356  101.582
+#  Velocity Dispersion = 10.66 Km/sec/pixel     Rebinned WPC = 1.54392E-5
+J0644+3344       j03020      A  4475.7381   33   BBS/gau   -7.065  0.09 157.95  2.62   -52.2331  -75.2816   -57.1160   34.249 
+#  Velocity Dispersion = 10.67 Km/sec/pixel     Rebinned WPC = 1.54534E-5
+J0644+3344       j03020      A  4475.7381   34   BBS/gau   6.717   0.06 56.15   2.06   94.7192   71.6594    89.8364    14.418 
+#  Velocity Dispersion = 10.68 Km/sec/pixel     Rebinned WPC = 1.54664E-5
+J0644+3344       j03020      A  4475.7381   35   BBS/gau   -56.239 0.08 82.86   1.81   -576.8246 -599.8328  -581.7075  23.186 
+#  Velocity Dispersion = 10.68 Km/sec/pixel     Rebinned WPC = 1.54786E-5
+J0644+3344       j03020      A  4475.7381   36   BBS/gau   17.760  0.07 120.83  2.10   212.8934  189.8245   208.0106   30.640 
+#  Velocity Dispersion = 10.69 Km/sec/pixel     Rebinned WPC = 1.54895E-5
+J0644+3344       j03020      A  4475.7381   37   BBS/gau   52.443  0.11 74.88   1.86   584.3573  561.2599   579.4745   20.585 
+#  Velocity Dispersion = 10.70 Km/sec/pixel     Rebinned WPC = 1.54993E-5
+J0644+3344       j03020      A  4475.7381   38   BBS/gau   0.886   0.06 109.79  2.65   32.5308   9.4758     27.6480    23.654 
+#  Velocity Dispersion = 10.70 Km/sec/pixel     Rebinned WPC = 1.55077E-5
+J0644+3344       j03020      A  4475.7381   39   BBS/gau   25.357  0.09 36.91   2.01   294.6428  271.5677   289.7600   9.616  
+#  Velocity Dispersion = 10.71 Km/sec/pixel     Rebinned WPC = 1.55147E-5
+J0644+3344       j03020      A  4475.7381   40   BBS/gau   -71.146 0.15 48.32   2.38   -737.9932 -760.9890  -742.8761  11.233 
+#  Velocity Dispersion = 10.71 Km/sec/pixel     Rebinned WPC = 1.55203E-5
+J0644+3344       j03020      A  4475.7381   41   BBS/gau   51.154  0.11 68.81   1.94   571.6412  548.5448   566.7584   18.404 
+#  Velocity Dispersion = 10.72 Km/sec/pixel     Rebinned WPC = 1.55247E-5
+J0644+3344       j03020      A  4475.7381   42   BBS/gau   16.898  0.14 55.31   2.99   204.2111  181.1429   199.3283   10.890 
+#  Velocity Dispersion = 10.72 Km/sec/pixel     Rebinned WPC = 1.55277E-5
+J0644+3344       j03020      A  4475.7381   43   BBS/gau   -13.048 0.04 266.06  0.84   -116.7850 -139.8285  -121.6678  113.738
+#  Velocity Dispersion = 10.72 Km/sec/pixel     Rebinned WPC = 1.55296E-5
+J0644+3344       j03020      A  4475.7381   44   BBS/gau   52.630  0.09 38.33   1.77   587.8264  564.7288   582.9436   10.869 
+#  Velocity Dispersion = 10.72 Km/sec/pixel     Rebinned WPC = 1.55303E-5
+J0644+3344       j03020      A  4475.7381   45   BBS/gau   10.732  0.11 50.67   2.10   138.1407  115.0776   133.2579   12.826 
+#  Velocity Dispersion = 10.72 Km/sec/pixel     Rebinned WPC = 1.55298E-5
+J0644+3344       j03020      A  4475.7381   46   BBS/gau   13.049  0.13 91.60   2.78   162.9847  139.9197   158.1019   19.048 
+#  Velocity Dispersion = 10.72 Km/sec/pixel     Rebinned WPC = 1.55287E-5
+J0644+3344       j03020      A  INDEF       47   BBS/gau   INDEF   INDEF INDEF   INDEF  INDEF     INDEF      INDEF      INDEF  
+#  Velocity Dispersion = 10.72 Km/sec/pixel     Rebinned WPC = 1.55270E-5
+J0644+3344       j03020      A  4475.7381   48   BBS/gau   46.763  0.08 137.25  1.70   524.7359  501.6431   519.8531   39.989 
+#  Velocity Dispersion = 10.72 Km/sec/pixel     Rebinned WPC = 1.55247E-5
+J0644+3344       j03020      A  INDEF       49   BBS/gau   INDEF   INDEF INDEF   INDEF  INDEF     INDEF      INDEF      INDEF  
+#  Velocity Dispersion = 10.71 Km/sec/pixel     Rebinned WPC = 1.55221E-5
+J0644+3344       j03020      A  4475.7381   50   BBS/gau   -7.747  0.09 36.17   2.03   -59.9464  -82.9943   -64.8292   9.385  
+#  Velocity Dispersion = 10.71 Km/sec/pixel     Rebinned WPC = 1.55196E-5
+J0644+3344       j03020      A  4475.7381   51   BBS/gau   65.861  0.11 73.51   2.38   729.5150  706.4064   724.6322   17.059 
