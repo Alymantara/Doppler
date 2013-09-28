@@ -20,7 +20,7 @@ Versions:
 '''
 lam=par.lam0
 dell=par.dell
-
+cl=2.997e5
 bins=50
 xaxis='vel'
 
@@ -193,12 +193,32 @@ plt.show()
 
 fig=plt.figure(3)
 plt.clf()
+ax=fig.add_subplot(211)
 avgspec=zvals.sum(axis=0)
 plt.plot(y[0][:-1],avgspec/len(saved[4]))
+plt.axvline(x=saved[0][0][ss-par.dellx],color='k')
+plt.axvline(x=saved[0][0][ss+par.dellx],color='k')
 print 'Choose 4 points to define continuum'
+xor=[]
 for i in n.arange(4):
     xx=plt.ginput(1,timeout=-1)
+    xor.append(xx[0][0])
     plt.axvline(x=xx[0][0],linestyle='--',color='k')
+yor=[]
+for j in xor:
+    for i in n.arange(len(y[0][:-1])-1):
+        if j >= y[0][i] and j<=y[0][i+1]:
+            yor.append((avgspec[i+1]/len(saved[4])+avgspec[i]/len(saved[4]))/2.0)
+
+
+wv=y[0][:-1]*(-par.gama/cl+1)
+linfit=(n.mean(yor[:2])-n.mean(yor[2:]))/(n.mean(xor[:2])-n.mean(xor[2:]))*(wv-n.mean(xor[2:]))+n.mean(yor[:2])
+ax=fig.add_subplot(212)
+vell=((wv/par.lam0)**2-1)*cl/(1+(wv/par.lam0)**2)
+
+veloc=(wv-par.lam0)/par.lam0*cl
+plt.plot(vell,avgspec/len(saved[4])-linfit)
+plt.axhline(y=0,linestyle='--',color='k')
 
 #n.save('phase_binned.npy',[y,zvals[:bins],x[:bins],phis,lam,dell,bins,xaxis,limits])
 
